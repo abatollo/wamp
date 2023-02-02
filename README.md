@@ -93,21 +93,21 @@ HTML–файлы необходимы для проверки работы но
 **3.5.** Откройте файл D:\web\apache\conf\extra\httpd-vhosts.conf. Опишите виртуальные хосты в следующей нотации, после чего перезапустите Apache:
 
     <VirtualHost *:80>
-    ServerAdmin webmaster@host1.localhost
-    DocumentRoot "D:/web/www/host1.localhost"
-    ServerName host1.localhost
-    ServerAlias www.host1.localhost
-    ErrorLog "D:/web/log/host1.localhost/error.log"
-    CustomLog "D:/web/log/host1.localhost/access.log" common
+        ServerAdmin webmaster@host1.localhost
+        DocumentRoot "D:/web/www/host1.localhost"
+        ServerName host1.localhost
+        ServerAlias www.host1.localhost
+        ErrorLog "D:/web/log/host1.localhost/error.log"
+        CustomLog "D:/web/log/host1.localhost/access.log" common
     </VirtualHost>
 
     <VirtualHost *:80>
-    ServerAdmin webmaster@host2.localhost
-    DocumentRoot "D:/web/www/host2.localhost"
-    ServerName host2.localhost
-    ServerAlias www.host2.localhost
-    ErrorLog "D:/web/log/host2.localhost/error.log"
-    CustomLog "D:/web/log/host2.localhost/access.log" common
+        ServerAdmin webmaster@host2.localhost
+        DocumentRoot "D:/web/www/host2.localhost"
+        ServerName host2.localhost
+        ServerAlias www.host2.localhost
+        ErrorLog "D:/web/log/host2.localhost/error.log"
+        CustomLog "D:/web/log/host2.localhost/access.log" common
     </VirtualHost>
 
 **3.6.** Откройте браузер и перейдите по адресам http://host1.localhost/ и http://host2.localhost/ — вы должны увидеть надписи host1 и host2 соответственно.
