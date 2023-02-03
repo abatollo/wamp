@@ -206,11 +206,11 @@ HTML–файлы необходимы для проверки работы но
 
 На абсолютном большинстве недорогих виртуальных хостингов для редактирования баз данных предлагается именно phpMyAdmin
 
-**6.1.** Загрузите архив с последней версией phpMyAdmin: [phpMyAdmin-4.8.5-all-languages.zip](https://files.phpmyadmin.net/phpMyAdmin/4.8.5/phpMyAdmin-4.8.5-all-languages.zip). На всякий случай, проверьте на официальном сайте phpMyAdmin нет ли версии новее: [phpmyadmin.net/downloads/](https://www.phpmyadmin.net/downloads/).
+**6.1.** Загрузите архив с последней версией phpMyAdmin: [phpMyAdmin-5.2.0-all-languages.zip](https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip). На всякий случай, проверьте на официальном сайте phpMyAdmin нет ли версии новее: [phpmyadmin.net/downloads/](https://www.phpmyadmin.net/downloads/).
 
 Обратите внимание на то, что phpMyAdmin (или просто PMA) работает на чистом PHP, это не программа для Windows. Для работы PMA должен быть запущен Apache с модулем PHP.
 
-**6.2.** Распакуйте содержимое phpMyAdmin-4.8.5-all-languages (папка в архиве может быть вложена) в папку D:\web\www\pma.localhost, создайте отдельный виртуальный хост pma.localhost и не забудьте перезапустить Apache.
+**6.2.** Распакуйте содержимое phpMyAdmin-5.2.0-all-languages (папка в архиве может быть вложена) в папку D:\web\www\pma.localhost, создайте отдельный виртуальный хост pma.localhost и не забудьте перезапустить Apache.
 
 Конечно, PMA можно просто поместить в отдельную подпапку любого уже настроенного хоста, но экономить на хостах на своем собственном компьютере нет никакого смысла — а отдельный хост удобнее просто для порядка.
 
