@@ -72,7 +72,7 @@ Apache HTTPD или просто «апач» чаще всего использ
 
 ## 3. Добавьте в Apache виртуальные хосты
 
-![](windows-apache-mysql-php-webserver-3.jpg)
+![](windows-apache-mysql-php-webserver-3.png)
 
 Для запуска, остановки и перезапуска «апача» можно запускать Apache Monitor, который расположен в D:\web\apache\bin\ApacheMonitor.exe, но не менее просто перезапускать службу Apache2.4 прямо из «Диспетчера задач»
 
