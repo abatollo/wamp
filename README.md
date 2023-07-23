@@ -158,7 +158,7 @@ HTML–файлы необходимы для проверки работы но
 
 Сегодня MySQL развивает компания Oracle, которая предлагает и другие серверы баз данных, но MySQL остаётся выбором номер один для сайтов малого и среднего масштабов
 
-**5.1.** Загрузите последнюю версию MySQL Installer для Windows: [mysql-installer-community-8.0.33.0.msi](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.33.0.msi). На всякий случай, проверьте на официальном сайте MySQL нет ли версии новее: [dev.mysql.com/downloads/windows/installer/](https://dev.mysql.com/downloads/windows/installer/).
+**5.1.** Загрузите последнюю версию MySQL Installer для Windows: [mysql-installer-community-8.0.34.0.msi](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.34.0.msi). На всякий случай, проверьте на официальном сайте MySQL нет ли версии новее: [dev.mysql.com/downloads/windows/installer/](https://dev.mysql.com/downloads/windows/installer/).
 
 Обратите внимание на то, что это только установщик, и он собран для 32–битных Windows. Уже в ходе установки вы выберете какая версия MySQL вам нужна: для 64– или 32–битных систем.
 
